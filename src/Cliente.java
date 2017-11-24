@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>PPT1718_PRACTICA3/MainServer.java at master · jccuevas/PPT1718_PRACTICA3</title>
+  <title>PPT1718_PRACTICA3/Cliente.java at master · jccuevas/PPT1718_PRACTICA3</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -36,10 +36,10 @@
     <meta content="https://avatars2.githubusercontent.com/u/4116619?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="jccuevas/PPT1718_PRACTICA3" property="og:title" /><meta content="https://github.com/jccuevas/PPT1718_PRACTICA3" property="og:url" /><meta content="PPT1718_PRACTICA3 - Código de ejemplo de la práctica 3" property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjI1MDU0MjY5OmMyMmZiYmY2MGQwZWU4NmMyODEyOTcwMTZjODNkMzhjYjZjM2QyNDZlOGJjMDA1NmUxNWVkYTU4MGI3YTc5MGM=--f79f8d9d1573addcc9509cfae731b5e4dab30ace">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjI1MDU0MjY5OmUzMTkwYjNjODZkNjcxODllYTBjOGE5YTExMjQ3NjZjNTkyODZiZTEzZGI2ZTY0NGYyNmFlNTM1NDMzMTVjMzg=--69504e0347178275049274b13f5ffb1ba3fe6690">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="55BD:3DB9:2FAC757:4F62A83:5A17F06B" data-pjax-transient>
+  <meta name="request-id" content="55BD:3DB9:2FACAF6:4F63448:5A17F073" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="55BD:3DB9:2FAC757:4F62A83:5A17F06B" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="31919071" name="octolytics-actor-id" /><meta content="std00002" name="octolytics-actor-login" /><meta content="339c943961531f550fd0d3323e9a56134bf44ca8a2cb0d8b7e90273d2c33c465" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="55BD:3DB9:2FACAF6:4F63448:5A17F073" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="31919071" name="octolytics-actor-id" /><meta content="std00002" name="octolytics-actor-login" /><meta content="339c943961531f550fd0d3323e9a56134bf44ca8a2cb0d8b7e90273d2c33c465" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,7 +63,7 @@
   <meta name="user-login" content="std00002">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YjY4MGE1OTkyYjVlZDgwMTJkMmQxNGQ4NjMwMWJkNDk3YWYzYmExYTJkN2U3ZTk1ZWY4NTljMjgyYzVhZDVjZnx7InJlbW90ZV9hZGRyZXNzIjoiMTUwLjIxNC4xMDAuODAiLCJyZXF1ZXN0X2lkIjoiNTVCRDozREI5OjJGQUM3NTc6NEY2MkE4Mzo1QTE3RjA2QiIsInRpbWVzdGFtcCI6MTUxMTUxODMyMCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="MTdjNWQ5YjE0ZDEyMmUxYTE2ZTkyYzU0MGI5MDA4ZDEyMDU0YzRlNzQzZjZhMGI0OWJmN2U2NDI0NzNlODMwMHx7InJlbW90ZV9hZGRyZXNzIjoiMTUwLjIxNC4xMDAuODAiLCJyZXF1ZXN0X2lkIjoiNTVCRDozREI5OjJGQUNBRjY6NEY2MzQ0ODo1QTE3RjA3MyIsInRpbWVzdGFtcCI6MTUxMTUxODMyNiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -80,7 +80,7 @@
   <meta content="4116619" name="octolytics-dimension-user_id" /><meta content="jccuevas" name="octolytics-dimension-user_login" /><meta content="111903583" name="octolytics-dimension-repository_id" /><meta content="jccuevas/PPT1718_PRACTICA3" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="111903583" name="octolytics-dimension-repository_network_root_id" /><meta content="jccuevas/PPT1718_PRACTICA3" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/jccuevas/PPT1718_PRACTICA3/blob/master/src/MainServer.java" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/jccuevas/PPT1718_PRACTICA3/blob/master/src/Cliente.java" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -127,7 +127,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/search" class="js-site-search-form" data-scoped-search-url="/jccuevas/PPT1718_PRACTICA3/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/jccuevas/PPT1718_PRACTICA3/blob/master/src/MainServer.java" class="header-search-scope no-underline">This repository</a>
+        <a href="/jccuevas/PPT1718_PRACTICA3/blob/master/src/Cliente.java" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -250,7 +250,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tpDYsvHQzcscSZlpv5p6KFb1w/AddFr8iLg1GSzCEnEH/bsOwDEMiCWv96F/1z4CBJs72xgk4kETwj3RDyOBNA==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+8zsmDUv8YywD8X81dqob15DJzN4fKr2dPinBwGuw4xKoY8kBM4wz4npqzQVl+xFDC3fGH0sEkvvgq/PIk9QyQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -261,7 +261,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cGuzW9ApyzYhf9jxCc25MzP7B3T2AbJjK3CxBTvJsczBBtDn4cgKdRiZtjnJgP0ZYZX/X/NRCt6wCrnNGCgiiQ==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hRhHKQH7kTRu/3b2yRiFVJ4iS5Ne8gi5DzjYz9jAwjE0dSSVMBpQd1cZGD4JVcF+zEyzuFuisASUQtAH+yFRdA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -296,7 +296,7 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kll2hvDV+xYtHG/QohuE8MC7F+qYIOzKUD7hNz8FD7E0x7ULVkDfEKv7xJYFPuAaKwCsiT+I0D9g9AW4Jh2R9Q==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="111903583" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Gav8j6/VJUgsMXb/yv9YKjwZgBvJKoO4O7cUuZRbmL+/NT8CCUABTqrW3blt2jzA16I7eG6Cv00LffA2jUMG+w==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="111903583" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/jccuevas/PPT1718_PRACTICA3/subscription"
@@ -376,7 +376,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VnVIjC61ja2Sbh8injoC5SbRe2OtoTpIJRvk3WuL/FCKsps2dnSGpE3tbd48GJds0bkxfYvdCz0jSeY2DT77hg==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CIN+NmGMzaCGC73uoVEXIbD1boClinZbM7Sxxs2OWm/URK2MOU3GqVmIzxIDc4KoR50knoP2Ry415rMtqztduQ==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -391,7 +391,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jbtym+GvkxRqIgoAnl+p7MMNnc8mrQcOc/B5OaZEY2L460VJTkah7NfqpfDk75IJTKCdb+I60WmyQvkP84yC0A==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jrTc6TYHcL86GT60QuATFYc2Ubm06d4Gni/8moDXiQT75Os7me5CR4fRkUQ4UCjwCJtRGXB+CGFfnXys1R9otg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -410,7 +410,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/feSCbPbuc3w+XqyBT8sVoBiopu9bKpu9i06Vz7WGRFCrhKIThkS0JnCVwKaZAFxj9OxewHT8OH3X7SGIaQQmA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3+8prxE40FfNutN4vLXXWdv+oMU0KsXynTI57oc6FMZgtqku7Pp7SqSB/sgj7vp+1E+zJYiVn32cQLc/mEgdTw==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -491,9 +491,9 @@
   <div class="repository-content">
 
     
-  <a href="/jccuevas/PPT1718_PRACTICA3/blob/43191fbd290e53ebe7a3f999b0e1a1594d5c795d/src/MainServer.java" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/jccuevas/PPT1718_PRACTICA3/blob/43191fbd290e53ebe7a3f999b0e1a1594d5c795d/src/Cliente.java" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:307db0e9b244a5254896068d29475316 -->
+  <!-- blob contrib key: blob_contributors:v21:7a46d378db0fe80fc41b494e03b7f13f -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -535,7 +535,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/jccuevas/PPT1718_PRACTICA3/blob/master/src/MainServer.java"
+               href="/jccuevas/PPT1718_PRACTICA3/blob/master/src/Cliente.java"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -572,12 +572,12 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/jccuevas/PPT1718_PRACTICA3"><span>PPT1718_PRACTICA3</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/jccuevas/PPT1718_PRACTICA3/tree/master/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">MainServer.java</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/jccuevas/PPT1718_PRACTICA3"><span>PPT1718_PRACTICA3</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/jccuevas/PPT1718_PRACTICA3/tree/master/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">Cliente.java</strong>
     </div>
   </div>
 
 
-  <include-fragment class="commit-tease" src="/jccuevas/PPT1718_PRACTICA3/contributors/master/src/MainServer.java">
+  <include-fragment class="commit-tease" src="/jccuevas/PPT1718_PRACTICA3/contributors/master/src/Cliente.java">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -593,24 +593,24 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/jccuevas/PPT1718_PRACTICA3/raw/master/src/MainServer.java" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/jccuevas/PPT1718_PRACTICA3/blame/master/src/MainServer.java" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/jccuevas/PPT1718_PRACTICA3/commits/master/src/MainServer.java" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/jccuevas/PPT1718_PRACTICA3/raw/master/src/Cliente.java" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/jccuevas/PPT1718_PRACTICA3/blame/master/src/Cliente.java" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/jccuevas/PPT1718_PRACTICA3/commits/master/src/Cliente.java" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="x-github-client://openRepo/https://github.com/jccuevas/PPT1718_PRACTICA3?branch=master&amp;filepath=src%2FMainServer.java"
+           href="x-github-client://openRepo/https://github.com/jccuevas/PPT1718_PRACTICA3?branch=master&amp;filepath=src%2FCliente.java"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/edit/master/src/MainServer.java" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RKvGuFpmTLwQmjH1jz7ht2G9Sy+Wgave4e915Yg6qjilpJZj0GKO805aEInv4bvMU9fHnE6AYjakOmB84fEu/w==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/edit/master/src/Cliente.java" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OO2kQzIWh2ijxNQwGA5alLJnpWFOArwHphGV/uuTKc2HCMOKQo744t1mNMlkvXpO2P9lOAp9PHvOokDlMHbC+g==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/delete/master/src/MainServer.java" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gSTWjNa85w3bDBjhDxkGBqd8klDhJ5zwCWHHfYRTOJ+8amQfiZHMrH7XtJytHsE8jvKMZDm9SVpyoMCkPpq3cA==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jccuevas/PPT1718_PRACTICA3/delete/master/src/Cliente.java" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5CTdM3OAIZm1wdO6EDuRkkZP15y6LEXkDjj05ZNKl62dgpZcxH90VWag5zp6aiJCkPuL2M9Br5wy0CEQIsPdrw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -618,9 +618,9 @@
 </form>  </div>
 
   <div class="file-info">
-      52 lines (42 sloc)
+      59 lines (44 sloc)
       <span class="file-info-divider"></span>
-    1.47 KB
+    1.78 KB
   </div>
 </div>
 
@@ -655,187 +655,215 @@
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.InetSocketAddress</span>;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.Socket</span>;</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.ServerSocket</span>;</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.UnknownHostException</span>;</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.Socket</span>;</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.net.UnknownHostException</span>;</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span></span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * To change this license header, choose License Headers in Project Properties.</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span></span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * To change this template file, choose Tools | Templates</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * To change this license header, choose License Headers in Project Properties.</span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * and open the template in the editor.</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * To change this template file, choose Tools | Templates</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * and open the template in the editor.</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span>*</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> *</span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span>*</span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * @author usuario</span></td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> *</span></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * @author usuario</span></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">Cliente</span> <span class="pl-k">implements</span> <span class="pl-e">Runnable</span>{</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"> </td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">MainServer</span> {</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">String</span> mId<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>;</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    </td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">/*</span>*</span></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-en">Cliente</span>(<span class="pl-smi">String</span> <span class="pl-v">id</span>){</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     * @param args the command line arguments</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">        mId<span class="pl-k">=</span>id;</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     <span class="pl-c">*/</span></span></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">static</span> <span class="pl-smi">ServerSocket</span> mMainServer<span class="pl-k">=</span> <span class="pl-c1">null</span>;</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    </td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">    </td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">final</span> <span class="pl-smi">String</span> <span class="pl-c1">MSG_HANDSHAKE</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>200 bienvenido<span class="pl-cce">\r\n</span><span class="pl-pds">&quot;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">    </td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">main</span>(<span class="pl-k">String</span>[] <span class="pl-v">args</span>)  {</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">  </td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">//</span> new Thread((Runnable) new Cliente(&quot;1&quot;)).start();</span></td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">       </td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">synchronized</span> <span class="pl-k">void</span> <span class="pl-en">run</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">   </td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">try</span>{       </td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">InetAddress</span> destination <span class="pl-k">=</span> <span class="pl-smi">InetAddress</span><span class="pl-k">.</span>getByName(<span class="pl-s"><span class="pl-pds">&quot;</span>www10.ujaen.es<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>-------------------<span class="pl-cce">\r\n</span>Iniciando cliente <span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>mId<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\r\n</span>--------------------<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">            </td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Conectando con socket <span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>destination<span class="pl-k">.</span>toString());</td>
+      </tr>
+      <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">try</span> {</td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">            </td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">            mMainServer<span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">ServerSocket</span>(<span class="pl-c1">6000</span>);</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">Socket</span> socket <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Socket</span>(destination,<span class="pl-c1">80</span>);</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-c1">MSG_HANDSHAKE</span>);</td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">BufferedReader</span> input <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">BufferedReader</span>(<span class="pl-k">new</span> <span class="pl-smi">InputStreamReader</span>(socket<span class="pl-k">.</span>getInputStream()));</td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">while</span>(<span class="pl-c1">true</span>) {</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">DataOutputStream</span> output <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">DataOutputStream</span>(socket<span class="pl-k">.</span>getOutputStream());</td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">                <span class="pl-smi">Socket</span> socket <span class="pl-k">=</span>mMainServer<span class="pl-k">.</span>accept();</td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">            output<span class="pl-k">.</span>write(<span class="pl-s"><span class="pl-pds">&quot;</span>GET / HTTP/1.1<span class="pl-cce">\r\n</span>host:www10.ujaen.es<span class="pl-cce">\r\n</span>Connection:close<span class="pl-cce">\r\n\r\n</span><span class="pl-pds">&quot;</span></span><span class="pl-k">.</span>getBytes());</td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">                 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Conexión entrande desde: <span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>socket<span class="pl-k">.</span>getInetAddress()<span class="pl-k">.</span>toString());</td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">String</span> line<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>;</td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">                 <span class="pl-smi">Thread</span> connection<span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Thread</span>(<span class="pl-k">new</span> <span class="pl-smi">HTTPSocketConnection</span>(socket));</td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">int</span> i<span class="pl-k">=</span><span class="pl-c1">0</span>;</td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">                 connection<span class="pl-k">.</span>start();</td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">while</span>((line<span class="pl-k">=</span>input<span class="pl-k">.</span>readLine())<span class="pl-k">!=</span><span class="pl-c1">null</span>) {</td>
       </tr>
       <tr>
         <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">            }</td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span>(i<span class="pl-k">==</span><span class="pl-c1">0</span>)</td>
       </tr>
       <tr>
         <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">catch</span> (<span class="pl-smi">java.net<span class="pl-k">.</span>BindException</span> ex) {</td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>&lt;<span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>mId<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&quot;</span>&gt; <span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>line);</td>
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>err<span class="pl-k">.</span>println(ex<span class="pl-k">.</span>getMessage());</td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">                i<span class="pl-k">++</span>;</td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">catch</span> (<span class="pl-smi">IOException</span> ex2){</td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">            }   </td>
       </tr>
       <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>err<span class="pl-k">.</span>println(ex2<span class="pl-k">.</span>getMessage());</td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">            </td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">        }</td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">        }<span class="pl-k">catch</span> (<span class="pl-smi">UnknownHostException</span> e) {</td>
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">    }  </td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\t</span>Unabletofindaddressfor<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">catch</span>(<span class="pl-smi">IOException</span> ex){</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">        </td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\t</span>Error: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span>ex<span class="pl-k">.</span>getMessage()<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\r\n</span><span class="pl-pds">&quot;</span></span><span class="pl-k">+</span>ex<span class="pl-k">.</span>getStackTrace());</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">    </td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
 </table>
 
@@ -847,7 +875,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
         <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
-        <li><a href="/jccuevas/PPT1718_PRACTICA3/blame/43191fbd290e53ebe7a3f999b0e1a1594d5c795d/src/MainServer.java" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
+        <li><a href="/jccuevas/PPT1718_PRACTICA3/blame/43191fbd290e53ebe7a3f999b0e1a1594d5c795d/src/Cliente.java" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
           <li><a href="/jccuevas/PPT1718_PRACTICA3/issues/new" class="dropdown-item" id="js-new-issue">Open new issue</a></li>
       </ul>
     </div>
@@ -877,7 +905,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.25132s from unicorn-1633261751-rxq9w">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.18141s from unicorn-1633261751-t94jl">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

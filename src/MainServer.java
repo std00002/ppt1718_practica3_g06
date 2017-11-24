@@ -40,8 +40,5 @@ System.out.println("\tUnable to find address for " + host);
 }
     
   }
-    
-    
-    
-    
+     
 }

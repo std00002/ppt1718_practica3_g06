@@ -1,29 +1,20 @@
+package ujaen.git.ppt.p3;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.UnknownHostException;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- *
- * @author usuario
+ * Servidor TCP concurrente sencillo
+ * Prácticas de Protocolos de Transporte
+ * Grado en Ingeniería Telemática
+ * Universidad de Jaén
+ * 
+ * @author Juan Carlos Cuevas Martínez
  */
 public class MainServer {
 
-    /**
-     * @param args the command line arguments
-     */
+
     private static ServerSocket mMainServer= null;
     
     public static final String MSG_HANDSHAKE="200 bienvenido\r\n";
@@ -32,7 +23,6 @@ public class MainServer {
   
        // new Thread((Runnable) new Cliente("1")).start();
        
-
         try {
             mMainServer= new ServerSocket(6000);
             System.out.println(MSG_HANDSHAKE);

@@ -1,3 +1,5 @@
+package ujaen.git.ppt.p3;
+
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -7,15 +9,13 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- *
- * @author usuario
+ * Clase que modela un cliente genérico TCP
+ * Prácticas de Protocolos de Transporte
+ * Grado en Ingeniería Telemática
+ * Universidad de Jaén
+ * 
+ * @author Juan Carlos Cuevas Martínez
  */
 public class Cliente implements Runnable{
  

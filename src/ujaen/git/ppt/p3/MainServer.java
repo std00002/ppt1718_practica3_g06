@@ -14,17 +14,17 @@ import java.net.Socket;
  */
 public class MainServer {
 
+    public static final String MSG_HANDSHAKE="Servidor HTTP/1.1 iniciándose...";
 
     private static ServerSocket mMainServer= null;
     
-    public static final String MSG_HANDSHAKE="200 bienvenido\r\n";
-    
+     
     public static void main(String[] args)  {
   
        // new Thread((Runnable) new Cliente("1")).start();
        
         try {
-            mMainServer= new ServerSocket(6000);
+            mMainServer= new ServerSocket(80);
             System.out.println(MSG_HANDSHAKE);
             while(true) {
                 Socket socket =mMainServer.accept();

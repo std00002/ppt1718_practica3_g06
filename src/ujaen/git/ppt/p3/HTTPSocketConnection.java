@@ -25,6 +25,11 @@ import java.util.Random;
  */
 public class HTTPSocketConnection implements Runnable {
     
+    public static final String Recurso_405="HTTP/1.1 405\r\nContent-type:text/html\r\n\r\n<html><body><h1>Metodo no permitido</h1></body></html>";
+    public static final String Recurso_404="HTTP/1.1 404\r\nContent-type:text/html\r\n\r\n<html><body><h1>No encontrado</h1></body></html>";
+    public static final String Recurso_400="HTTP/1.1 400\r\nContent-type:text/html\r\n\r\n<html><body><h1>Error de sintaxis/cliente</h1></body></html>";
+    public static final String Recurso_505="HTTP/1.1 505\r\nContent-type:text/html\r\n\r\n<html><body><h1>HTTP Version Not Supported</h1></body></html>";
+    
     private Socket mSocket=null;
     public final static String FILE_TO_SEND = "index.html";
     private String fileMimeType = "";
@@ -70,7 +75,7 @@ public class HTTPSocketConnection implements Runnable {
                         if(status_line[1].equals("1.1") || status_line[1].equals("1.0")){
                             
                         if(!parts[0].equals("GET ")){
-                            outmesg="HTTP/1.1 405\r\nContent-type:text/html\r\n\r\n<html><body><h1>Metodo no permitido</h1></body></html>";
+                            outmesg=Recurso_405;
                        outdata=outmesg.getBytes();    
                         }
                         if(parts[1].equalsIgnoreCase("/")){
@@ -78,6 +83,8 @@ public class HTTPSocketConnection implements Runnable {
                         }else{
                             resourceFile=parts[1];
                         }
+                        String local_recurso="C:\\Users\\LENOVO\\Desktop\\UNIVERSIDAD\\3º Curso\\Protocolos de Transporte\\ppt1718_practica3_g06/"+resourceFile+"";
+                        
                         recurso=leerRecurso(resourceFile);
                         //Content-type
                         outmesg="HTTP/1.1 200 OK\r\nContent-type:text/html\r\n"+
@@ -85,25 +92,27 @@ public class HTTPSocketConnection implements Runnable {
                         "Date: " + new Date().toString() + "\r\n"+
                         //Server
                         "Server: Salva1.0\r\n"+
-                        //Cabecera content-length
-                        "Accept-Ranges: "+recurso.length+"\r\n"+
-                        "";
-                        
+                        //Cabecera content-length111
+                        "Content-length: "+local_recurso.length()+"\r\n"+
+                        //Cabecera allow
+                        "Allow: GET\r\n"+
+                        "\r\n";
+                        outmesg.length();
                         outdata=outmesg.getBytes();
                         
                         if(outdata==null)    {
-                            outmesg="HTTP/1.1 404\r\nContent-type:text/html\r\n\r\n<html><body><h1>No encontrado</h1></body></html>";
+                            outmesg=Recurso_404;
                             outdata=outmesg.getBytes();
                             
                         }
                    
                     
                     /*else{
-                        outmesg="HTTP/1.1 400\r\nContent-type:text/html\r\n\r\n<html><body><h1>Error de sintaxis/cliente</h1></body></html>";
+                        outmesg=Recurso_400;
                         outdata=outmesg.getBytes();
                     }*/
                     }else{
-                        outmesg="HTTP/1.1 505\r\nContent-type:text/html\r\n\r\n<html><body><h1>HTTP Version Not Supported</h1></body></html>";
+                        outmesg=Recurso_505;
                         outdata=outmesg.getBytes();
                         }  
             } 
@@ -117,6 +126,8 @@ public class HTTPSocketConnection implements Runnable {
             
             //Recurso
            output.write(outdata);
+           output.write(recurso);
+           
            output.flush();
             input.close();
             output.close();
@@ -137,14 +148,14 @@ public class HTTPSocketConnection implements Runnable {
             FileInputStream fileInputStream = null;
 	    BufferedInputStream bufferedInputStream = null;
                     //OutputStream outputStream = null;
-          File f = new File ("C:/Users/Salvador/Desktop/"+resourceFile+"");
+          File f = new File ("C:/Users/Salvador/Desktop"+resourceFile+"");
           if (f.exists()){
           long length = f.length();
           byte[] bytes = new byte[(int) length];
           fileInputStream = new FileInputStream(f);
           bufferedInputStream = new BufferedInputStream(fileInputStream);
           bufferedInputStream.read(bytes,0,bytes.length); // copied file into byteArray
-	
+	 
 	//sending file through socket
 	//output = mSocket.getOutputStream();
         //System.out.println("Sending " + resourceFile + "( size: " + bytes.length + " bytes)");
@@ -154,6 +165,8 @@ public class HTTPSocketConnection implements Runnable {
           
           return bytes;
           }
+              
+          
           return null;
     }
 }
